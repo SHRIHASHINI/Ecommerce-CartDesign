@@ -1,0 +1,138 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.main
+{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Container
+{
+    width: 60%;
+    height: 80vh;
+    font-family: "Nunito", sans-serif;
+}
+.logo{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.logo> button
+{
+   
+    height: 20px;
+    width: 70px;
+    background-color:black;
+    color: white;
+    border: 1px solid rgb(190, 178, 178);
+    margin: 10px;
+}
+.logo>button:hover{
+    background-color: white;
+    color: orange;
+    transform: translate(1.5px);
+    transition: 1s;
+}
+.top-container
+{
+    /* border: 1px solid violet; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.bottom-container
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-content
+{
+    border: 1px solid lightslategray;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.image-container
+{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50% 50%;
+    margin-right: 10px;
+}
+.image-container >img{
+    width: 100%;
+    height: 100%;
+}
+.icon-container
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50% 50%;
+    margin-right: 10px;
+}
+.icon-container>img{
+    width: 100%;
+    height: 100%;
+}
+.input-box
+{
+    display: flex;
+    justify-content: center;
+}
+.input-content1
+{
+    width: 40%;
+    text-align: center;
+    display: flex;
+}
+.input-content2
+{
+    width: 70%;
+    border-bottom: 2px solid white;
+}
+.input-content2> input{
+    width: 100%;
+    background-color: black ;
+    outline: none;
+    border:none;
+    color: white;
+}
+input:focus{
+    background-color: black;
+    color: white;
+}
+
+.input-box> button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+border: .5px solid lightslategray;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+.input-box> button:hover{
+    background-color: white;
+    color: black;
+    transform: translate(3px);
+}

@@ -1,0 +1,1 @@
+export const API_URL="https://664311c33c01a059ea215dbd.mockapi.io/signup";

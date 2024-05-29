@@ -1,0 +1,215 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.main-login
+{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.heading-login
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-login
+{
+    height: 50px;
+    width: 60px;
+}
+.logo-login>img{
+    width: 100%;
+    height: 100%;
+}
+
+.Container-login
+{
+   height: 80%;
+   width: 60%;
+   display: flex;
+   font-family: "Nunito", sans-serif;
+   color: white;
+   border-radius: 30px;
+   border:1px solid rgb(255, 255, 255);
+   box-shadow: 2px 2px 4px rgb(167, 162, 162);
+}
+.image-container-login
+{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.Image-login
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+.Image-login>img{
+    width: 80%;
+    height: 80%;
+   
+}
+.content-container-login
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox-login
+{
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    border: .5px solid rgb(153, 167, 180);
+    box-shadow: 1px 1px 3px rgb(143, 135, 135);
+}
+
+.form-login{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.display-block{
+    width: 80%;
+}
+.form-login > .display-block > .inputbox-login 
+{
+    width: 100%;
+}
+ .form-login> .inputbox-login> input[type="email"] , .form-login > .display-block > .inputbox-login > input[type="password"]{
+  width: 80%;
+    background:none;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+.form-login> .inputbox-login >input[type="email"]:focus{
+    background: none;
+}
+
+.display-password
+{
+    float: left;
+    font-size: .6rem;
+    margin-left: 20px;
+}
+.heading-login> button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: .5px solid rgb(153, 167, 180);
+    box-shadow: 1px 1px 3px rgb(143, 135, 135);
+    background:none;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+.heading-login> button:hover{
+    background-color: white;
+    color: black;
+    transform: translate(3px);
+}
+.form-login> .inputbox-login > span >a{
+    color: orange;
+}
+
+@media all and (max-width:1440px)
+{
+        .Container-login
+        {
+            width: 80%;
+        }
+}
+@media all and (min-width:600px) and (max-width:890px)
+{
+    .Container-login
+    {
+        height: 60%;
+        width: 90%;
+    }
+    .Image-login
+    {
+        height: 220px;
+        width: 220px;
+    }
+    .form-login
+    {
+        height: 80%;
+    }
+    .inputbox-login{
+        font-size: .9rem;
+    }
+    .form-login > .display-block > .inputbox-login > input[type="password"], .form-login> .inputbox-login> input[type="email"]
+    {
+        padding: 5px;
+    }
+}
+@media all and (max-width:610px)
+{
+    .Container-login
+    {
+        width: 85%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container-login
+    {
+        height: 80%;
+        width: 100%;
+    }
+    .Image-login
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .content-container-login
+    {
+        height: 100%;
+    }
+    .form-login{
+        height: 90%;
+        width: 80%;
+    }
+    .heading-login
+    {
+        font-size: .8rem;
+    }
+    .logo-login
+    {
+        height: 40px;
+        width: 50px;
+    }
+    .inputbox-login, .display-block{
+        width: 100%;
+    }
+}
+
